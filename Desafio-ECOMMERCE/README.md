@@ -40,9 +40,9 @@ O desafio propõe a análise de um cenário em que uma empresa ECOMMERCE busca a
 ## Metodologia
 ### <i>Projeto Conceitual</i>
 Um modelo conceitual é um modelo abstrato que descreve a estrutura de um banco de dados de forma independente do SGBD. Dessa forma, será usado o workbanch do mysql, para criar um diagrama de relações de entidades. Nele será descritos as entidades e seus atributos previamente definidos pelas partes interessadas, incremento dos atributos requeridos de Fornecedores e estoque, assim como foi definido pelo participante alguns refinamentos. Sendo eles:
-* Cliente PJ e PF – Uma conta pode ser PJ ou PF, mas não pode ter as duas informações, dessa forma, foi criado a entidade <i>informação</i> que relaciona o CPF/CNPJ com o email do cliente(id), assim como foi criado um atributo booleano que explicita o tipo de registro legal, caso CPF será atribuido 0 e caso CNPJ será atribuido 1;
-* Pagamento – Pode ter cadastrado mais de uma forma de pagamento, sendo definido a opção de registrar apenas 1 informação por metodo;
-* Entrega – Possui status, código de rastreio e data maxima de entrega;
+* Cliente PJ e PF – Uma conta pode ser PJ ou PF, mas não pode ter as duas informações, dessa forma, foi criado a entidade <i>informação</i> que relaciona o CPF/CNPJ com o email do cliente(id), assim como foi criado um atributo booleano que explicita o tipo de registro legal, caso seja um CPF será atribuído  0 e caso CNPJ será atribuído 1;
+* Pagamento – Pode ter cadastrado mais de uma forma de pagamento, sendo definido a opção de registrar apenas 1 informação por método;
+* Entrega – Possui status, código de rastreio e data máxima de entrega;
 
 O resultado desse processo foi o seguinte:
 
