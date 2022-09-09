@@ -4,7 +4,7 @@
   <img src="https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/e5b0f498d8a7e3384bf2464cbfbc3c4d0bb917be/Desafio-ECOMMERCE/media/banner_ecommerce.png" alt="logo" >
 </h1>
 
-<h3 align="center"> Database Experience - 1° Desafio: E-COMMERCE</h3>
+<h3 align="center"> Database Experience - 1° Desafio: E-COMMERCE Loja Wizard</h3>
 
 </p>
 
@@ -13,7 +13,7 @@
   <a href="#metodologia">Metodologia e Resultados</a>
 
 ## Sobre 
-O desafio propõe a análise de um cenário em que uma empresa ECOMMERCE busca agragar as informações sobre sua venda de informações, que possui as entidades produto, estoque, fornecedor, pedido e cliente. Dessa maneira é desafiado ao participante a execução da criação de um projeto conceitual a partir de um modelo ER. As entidades requeridas pelos stakeholders possuem as seguintes características:
+O desafio propõe a análise de um cenário em que a empresa fictícia ECOMMERCE Loja Wizard busca agragar as informações sobre sua venda de informações, que possui as entidades produto, estoque, fornecedor, pedido e cliente. Dessa maneira é desafiado ao participante a execução da criação de um projeto conceitual a partir de um modelo ER. As entidades requeridas pelos stakeholders possuem as seguintes características:
 
 <b><i>Com relação aos produtos</i></b> 
 * São vendidos por uma unica plataforma online, contudo, estes podem ter vendedores distintos
