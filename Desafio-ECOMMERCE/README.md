@@ -39,9 +39,14 @@ O desafio propõe a análise de um cenário em que uma empresa ECOMMERCE busca a
 
 ## Metodologia
 ### <i>Projeto Conceitual</i>
-Um modelo conceitual é um modelo abstrato que descreve a estrutura de um banco de dados de forma independente do SGBD. Dessa forma, será usado o workbanch do mysql, para criar um diagrama de relações de entidades. O resultado desse processo foi o seguinte:
+Um modelo conceitual é um modelo abstrato que descreve a estrutura de um banco de dados de forma independente do SGBD. Dessa forma, será usado o workbanch do mysql, para criar um diagrama de relações de entidades. Nele será descritos as entidades e seus atributos previamente definidos pelas partes interessadas, incremento dos atributos requeridos de Fornecedores e estoque, assim como foi definido pelo participante alguns refinamentos. Sendo eles:
+* Cliente PJ e PF – Uma conta pode ser PJ ou PF, mas não pode ter as duas informações, dessa forma, foi criado a entidade <i>informação</i> que relaciona o CPF/CNPJ com o email do cliente(id), assim como foi criado um atributo booleano que explicita o tipo de registro legal, caso CPF será atribuido 0 e caso CNPJ será atribuido 1;
+* Pagamento – Pode ter cadastrado mais de uma forma de pagamento, sendo definido a opção de registrar apenas 1 informação por metodo;
+* Entrega – Possui status, código de rastreio e data maxima de entrega;
 
-<img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/3c156c5ccfcdcd1139fdb5345c43cd17a3c2e726/Desafio-ECOMMERCE/media/projeto_conceitual_db_ecommerce.png'>
+O resultado desse processo foi o seguinte:
+
+<img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/b5006a3c74f4fb5faae59777f48e8e35a0c74220/Desafio-ECOMMERCE/media/projeto_conceitual_db_ecommerce_h.png'>
 
 ### <i>Projeto Lógico</i>
 O Projeto Lógico de um banco de dados tem por objetivo avaliar as necessidades de uso do banco de dados pelos usuários/aplicações, realizando possíveis refinamentos para alcançar maior desempenho das operações sobre o banco de dados. A tarefa final do projeto lógico é a geração do esquema lógico, que representa uma descrição da estrutura do banco de dados que pode ser processada por um Sistema Gerenciador de Banco de Dados (SGBD). Será usado para essa etapa o SGBD MySQL
