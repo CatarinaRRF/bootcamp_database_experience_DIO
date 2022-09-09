@@ -39,7 +39,9 @@ O desafio propõe a análise de um cenário em que uma empresa ECOMMERCE busca a
 
 ## Metodologia
 ### <i>Projeto Conceitual</i>
-Um modelo conceitual é um modelo abstrato que descreve a estrutura de um banco de dados de forma independente do SGBD. Dessa forma, será usado o programa diagrams.net (draw.io) que é um software de fluxogramas online, para criar um diagrama de relações de entidades. O resultado desse processo foi o seguinte:
+Um modelo conceitual é um modelo abstrato que descreve a estrutura de um banco de dados de forma independente do SGBD. Dessa forma, será usado o workbanch do mysql, para criar um diagrama de relações de entidades. O resultado desse processo foi o seguinte:
+
+<img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/3c156c5ccfcdcd1139fdb5345c43cd17a3c2e726/Desafio-ECOMMERCE/media/projeto_conceitual_db_ecommerce.png'>
 
 ### <i>Projeto Lógico</i>
 O Projeto Lógico de um banco de dados tem por objetivo avaliar as necessidades de uso do banco de dados pelos usuários/aplicações, realizando possíveis refinamentos para alcançar maior desempenho das operações sobre o banco de dados. A tarefa final do projeto lógico é a geração do esquema lógico, que representa uma descrição da estrutura do banco de dados que pode ser processada por um Sistema Gerenciador de Banco de Dados (SGBD). Será usado para essa etapa o SGBD MySQL
