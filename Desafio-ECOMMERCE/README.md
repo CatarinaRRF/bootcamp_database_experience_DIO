@@ -1,5 +1,3 @@
-> <B>⚠️ Esse README ainda esta sob construção</B>
-
 <h1 align="center">
 <h1 align="center">
   <br>
@@ -15,7 +13,7 @@
   <a href="#metodologia">Metodologia e Resultados</a>
 
 ## Sobre 
-O desafio propõe a análise de um cenário em que uma empresa ECOMMERCE busca agragar as informações sobre sua venda de informações, que possui as entidades produto, estoque, fornecedor, pedido e cliente. Dessa maneira é desafiado ao participante a execução da criação de um projeto conceitual a partir de um modelo ER e criação de um projeto lógico utilizando de um modelo relacional. Quanto as entidade, as mesmas possuem as seguintes características:
+O desafio propõe a análise de um cenário em que uma empresa ECOMMERCE busca agragar as informações sobre sua venda de informações, que possui as entidades produto, estoque, fornecedor, pedido e cliente. Dessa maneira é desafiado ao participante a execução da criação de um projeto conceitual a partir de um modelo ER. As entidades requeridas pelos stakeholders possuem as seguintes características:
 
 <b><i>Com relação aos produtos</i></b> 
 * São vendidos por uma unica plataforma online, contudo, estes podem ter vendedores distintos
