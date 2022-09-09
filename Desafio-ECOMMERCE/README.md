@@ -1,4 +1,19 @@
-# 1° Desafio: E-COMMERCE
+> <B>⚠️ Esse README ainda esta sob construção</B>
+
+<h1 align="center">
+<h1 align="center">
+  <br>
+  <img src="" alt="logo" >
+</h1>
+
+<h3 align="center"> Database Experience - 1° Desafio: E-COMMERCE</h3>
+
+</p>
+
+<p align="center">
+  <a href="#sobre">Sobre</a> •
+  <a href="#arquivos">Arquivos</a> •
+  <a href="#creditos">Creditos</a>
 
 ## Sobre 
 O desafio propõe a análise de um cenário em que uma empresa ECOMMERCE 
