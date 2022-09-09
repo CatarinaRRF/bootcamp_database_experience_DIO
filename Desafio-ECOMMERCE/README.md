@@ -12,9 +12,7 @@
 
 <p align="center">
   <a href="#sobre">Sobre</a> •
-  <a href="#metodologia">Metodologia e Resultados</a> •
-  <a href="#changelog">Changelog</a> •
-  <a href="#conclusão">Conclusão</a> 
+  <a href="#metodologia">Metodologia e Resultados</a>
 
 ## Sobre 
 O desafio propõe a análise de um cenário em que uma empresa ECOMMERCE busca agragar as informações sobre sua venda de informações, que possui as entidades produto, estoque, fornecedor, pedido e cliente. Dessa maneira é desafiado ao participante a execução da criação de um projeto conceitual a partir de um modelo ER e criação de um projeto lógico utilizando de um modelo relacional. Quanto as entidade, as mesmas possuem as seguintes características:
@@ -47,13 +45,6 @@ Um modelo conceitual é um modelo abstrato que descreve a estrutura de um banco 
 O resultado desse processo foi o seguinte:
 
 <img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/b5006a3c74f4fb5faae59777f48e8e35a0c74220/Desafio-ECOMMERCE/media/projeto_conceitual_db_ecommerce_h.png'>
-
-### <i>Projeto Lógico</i>
-O Projeto Lógico de um banco de dados tem por objetivo avaliar as necessidades de uso do banco de dados pelos usuários/aplicações, realizando possíveis refinamentos para alcançar maior desempenho das operações sobre o banco de dados. A tarefa final do projeto lógico é a geração do esquema lógico, que representa uma descrição da estrutura do banco de dados que pode ser processada por um Sistema Gerenciador de Banco de Dados (SGBD). Será usado para essa etapa o SGBD MySQL
-
-## Changelog
-
-## Conclusão
 
 <hr>
 Gostaria de ver outros desafios realizados nesse bootcamp? acesse o <a href='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO'>link</a>
