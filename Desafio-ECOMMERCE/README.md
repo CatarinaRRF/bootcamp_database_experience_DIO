@@ -13,7 +13,9 @@
   <a href="#metodologia">Metodologia e Resultados</a>
 
 ## Sobre 
-O desafio propõe a análise de um cenário em que a empresa fictícia ECOMMERCE Loja Wizard busca agragar as informações sobre sua venda de informações, que possui as entidades produto, estoque, fornecedor, pedido e cliente. Dessa maneira é desafiado ao participante a execução da criação de um projeto conceitual a partir de um modelo ER. As entidades requeridas pelos stakeholders possuem as seguintes características:
+O desafio propõe a análise de um cenário em que a empresa fictícia ECOMMERCE Loja Wizard busca agragar as informações sobre suas vendas. Desse modo, se faz necessario a criação de um banco de dados que possui as entidades produto, estoque, fornecedor, pedido e cliente. Assim, é desafiado ao participante a execução da criação de um projeto conceitual a partir de um modelo ER. 
+  
+As entidades requeridas pelos stakeholders possuem as seguintes características:
 
 <b><i>Com relação aos produtos</i></b> 
 * São vendidos por uma unica plataforma online, contudo, estes podem ter vendedores distintos
