@@ -13,7 +13,16 @@
   <a href="#metodologia">Metodologia e Resultados</a>
 
 ## Sobre 
-O desafio propõe a análise de um cenário em que uma empresa ECOMMERCE busca agragar as informações sobre sua venda de informações, que possui as entidades produto, estoque, fornecedor, pedido e cliente. 
+Administrar uma oficina mecânica tem especificidades que outro negócio não tem, como o conhecimento técnico, mas a base é a mesma de qualquer empreendimento. Além de prestar um bom serviço, o negócio de carros exige boa apresentação, bom atendimento e conhecimentos de gestão. É um desafio diário, que exige comprometimento do proprietário <sup><a href='https://chiptronic.com.br/blog/10-dicas-para-vencer-os-desafios-cotidianos-de-uma-oficina-mecanica'>[1]</a></sup>. Assim, a empresa CENTROCAR Oficina Mecânica percebeu a necessidade de criar e manter um banco de dados com o intuido de auxiliar uma tomada de decisão orientada por dados. Os dados particulares a empresa são:
+
+* Sistema de controle e gerenciamento de execução de ordens de serviço em uma oficina mecânica.
+* Clientes levam veículos á oficina mêcania para serem consertados ou para passarem por revisões periódicas.
+* Cada veículo é designado a uma equipe de mecânicos que identifica os serviços a serem executados e preenche uma OS com data de entrega.
+* A partir da OS, calcula-se o valor de cada serviço, consultando-se uma tabela de referência de mão-de-obra
+* O valor de cada preça também irá compor a OS
+* O cliente autorixa a execução dos serviços
+* A mesma equpe avalia e executa os serviços
+* uma OS pode ter varios tipos de peça e uma peça pode estar presente em mais de uma OS
 
 ## Metodologia
 ### <i>Projeto Conceitual</i>
