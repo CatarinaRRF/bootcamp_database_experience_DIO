@@ -1,7 +1,7 @@
 <h1 align="center">
 <h1 align="center">
   <br>
-  <img src="https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/e5b0f498d8a7e3384bf2464cbfbc3c4d0bb917be/Desafio-ECOMMERCE/media/banner_ecommerce.png" alt="logo" >
+  <img src="https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/1ce4eb815893543e59ac0707c8f4a71afaa467fa/Desafio-OFICINA/banner_oficina.png" alt="logo" >
 </h1>
 
 <h3 align="center"> Database Experience - 2° Desafio: Oficina</h3>
