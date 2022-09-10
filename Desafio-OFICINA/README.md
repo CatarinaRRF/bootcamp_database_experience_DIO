@@ -1,7 +1,7 @@
 <h1 align="center">
 <h1 align="center">
   <br>
-  <img src="https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/1ce4eb815893543e59ac0707c8f4a71afaa467fa/Desafio-OFICINA/banner_oficina.png" alt="logo" >
+  <img src="https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/5e757398a5d35fc8cdb9c8f3c1c34f75ee8eecf0/Desafio-OFICINA/media/banner_oficina.png" alt="logo" >
 </h1>
 
 <h3 align="center"> Database Experience - 2° Desafio: Oficina</h3>
@@ -27,6 +27,7 @@ Administrar uma oficina mecânica tem especificidades que outro negócio não te
 ## Metodologia
 ### <i>Projeto Conceitual</i>
 Um modelo conceitual é um modelo abstrato que descreve a estrutura de um banco de dados de forma independente do SGBD. Dessa forma, será usado o workbanch do mysql, para criar um diagrama de relações de entidades. 
+<img href='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/5e757398a5d35fc8cdb9c8f3c1c34f75ee8eecf0/Desafio-OFICINA/media/projeto_conceitual_db_centro_car.png'>
 
 <hr>
 Gostaria de ver outros desafios realizados nesse bootcamp? acesse o <a href='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO'>link</a>
