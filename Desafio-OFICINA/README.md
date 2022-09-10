@@ -13,51 +13,57 @@
   <a href="#metodologia">Metodologia e Resultados</a>
 
 ## Sobre 
-Administrar uma oficina mecânica tem especificidades que outro negócio não tem, como o conhecimento técnico, mas a base é a mesma de qualquer empreendimento. Além de prestar um bom serviço, o negócio de carros exige boa apresentação, bom atendimento e conhecimentos de gestão. É um desafio diário, que exige comprometimento do proprietário <sup><a href='https://chiptronic.com.br/blog/10-dicas-para-vencer-os-desafios-cotidianos-de-uma-oficina-mecanica'>[1]</a></sup>. Assim, a empresa CENTROCAR Oficina Mecânica percebeu a necessidade de criar e manter um banco de dados com o intuido de auxiliar uma tomada de decisão orientada por dados. Os dados particulares a empresa são:
+Administrar uma oficina mecânica tem especificidades que outro negócio não tem, como o conhecimento técnico, mas a base é a mesma de qualquer empreendimento. Além de prestar um bom serviço, o negócio de carros exige boa apresentação, bom atendimento e conhecimentos de gestão. É um desafio diário, que exige comprometimento do proprietário <sup><a href='https://chiptronic.com.br/blog/10-dicas-para-vencer-os-desafios-cotidianos-de-uma-oficina-mecanica'>[1]</a></sup>. Assim, a empresa CENTROCAR Oficina Mecânica percebeu a necessidade de criar e manter um banco de dados com o intuito de auxiliar uma tomada de decisão orientada por dados. Os dados particulares a empresa são:
 
 * Sistema de controle e gerenciamento de execução de ordens de serviço em uma oficina mecânica.
-* Clientes levam veículos á oficina mêcania para serem consertados ou para passarem por revisões periódicas.
+* Clientes levam veículos à oficina mecânica para serem consertados ou para passarem por revisões periódicas.
 * Cada veículo é designado a uma equipe de mecânicos que identifica os serviços a serem executados e preenche uma OS com data de entrega.
 * A partir da OS, calcula-se o valor de cada serviço, consultando-se uma tabela de referência de mão-de-obra
-* O valor de cada preça também irá compor a OS
-* O cliente autorixa a execução dos serviços
-* A mesma equpe avalia e executa os serviços
-* uma OS pode ter varios tipos de peça e uma peça pode estar presente em mais de uma OS
+* O valor de cada peça também irá compor a OS
+* O cliente autoriza a execução dos serviços
+* A mesma equipe avalia e executa os serviços
+* uma OS pode ter vários tipos de peça e uma peça pode estar presente em mais de uma OS
 
 ## Metodologia
-### <i>Projeto Conceitual</i>
-Um modelo conceitual é um modelo abstrato que descreve a estrutura de um banco de dados de forma independente do SGBD. Dessa forma, será usado o workbanch do mysql, para criar um diagrama de relações de entidades. As entidades definidas foram:
+Um modelo conceitual é um modelo abstrato que descreve a estrutura de um banco de dados de forma independente do SGBD. Dessa forma, será usado o workbench do mysql, para criar um diagrama de relações de entidades. As entidades definidas foram:
 
-<b><i>Ficha do Veículo</i></b>
-Essa entidade tem como objetivo descrever todas as caracteristicas do carro que o 
-* Placa
-* Modelo
-* Ano
-* Caracteristicas gerais do veiculo (cambio, combustivel, pneus, etc)
+### <i>Ficha do Veículo</i>
+Essa entidade tem como objetivo descrever todas as características do carro.
+* <b>Placa <i>VARCHAR(7)</i></b>: É a chave primária dessa entidade;
+* <b>Modelo <i>VARCHAR(45)</i></b>: Armazena o modelo do carro;
+* <b>Ano <i>YEAR</i></b>: Armazena o ano de fabricação do carro;
+* <b>Características gerais do veículo <i>VARCHAR(45)</i> (câmbio, combustível, pneus, etc)</b>: Armazena características das peças do carro.
 
-<b><i>Cientes</i></b>
-* CPF
-* Identidade
-* pagamento
-* veiculo
+### <i>Clientes</i>
+Essa entidade tem como objetivo descrever todas as características do cliente.
+* <b>CPF <i>VARCHAR(11)</i></b>: É a chave primária dessa entidade e tem o propósito da identificação do cliente;
+* <b>Identidade<i>VARCHAR(12)</i></b>: identificação do cliente;
+* <b>Pagamento<i>VARCHAR(16)</i></b>: Método de pagamento escolhido, possui quatro variáveis: cartão de débito, cartão crédito, dinheiro, pix;
 
-<b><i>Serviço</i></b>
-* natureza do serviço
-* urgência
-* Descrição do serviço
+### <i>Serviço</i>
+Essa entidade tem como objetivo descrever todas as características do serviço.
+* <b>Natureza do serviço <i>BIT(8)</i></b>: Descreve qual o tipo de serviço foi requerido pelo cliente, sendo as opções:Reparos automotivos (1), Troca de óleo (2),Alinhamento e, balanceamento (3), Manutenção de embreagem (4), Revisão dos componentes de freio (5), Checagem do nível de água no radiador (6), Revisão Geral (7), outro (8). Os dados serão armazenados de acordo com a numeração de cada tipo, sendo assim, 0 a 7;
+* <b>Urgência <i>BIT(2)</i></b>: Descreva se o serviço precisa ser realizado com urgência. Tem como data type boolean, sendo 0 'sem urgência' e 1 'com urgência';
+* <b>Descrição do serviço <i>VARCHAR(256)</i></b>: Descreve alguma especificação sobre o serviço (opcional).
 
-<b><i>Orçamento</i></b>
-* Peças
-* Mão de obra
+### <i>Orçamento</i>
+Essa entidade tem como objetivo descrever todas as características do orçamento.
+* <b>Peças <i>BIT(2)</i> (câmbio, combustível, pneus, etc)</b>: Descreve se o foi comprado/consertado determinada peça do carro. Tem como data type boolean, sendo 0 'não trocou' e 1 'trocou', existe um atributo para cada peça;
+* <b>Mão de obra <i>BIT(4)</i></b>: descreve o valor da mão de obra de acordo com tempo estimado que será necessário para o concerto. Desse modo, os dados serão armazenados de 0 a 3 e que indicam as seguintes informações 1-7 dias (1), 8-14 dias (2), 9-21 dias (3), > 1 mês (4);
 
-<b><i>Equipe</i></b>
-* numero de Funcionarios
-* Especialidade
+### <i>Equipe</i>
+Essa entidade tem como objetivo descrever todas as características da equipe.
+* <b>Numero de Funcionarios <i>INT</i></b>: Descreve quantos funcionários tem na equipe;
+* <b>Especialidade <i>VARCHAR(45)</i></b>: Descreve a especialidade da equipe;
 
-<b>Relacionamento:<i> Valor Pagamento</i></b>
-* Preço
+### <i>Relacionamento: Valor Pagamento</i>
+Essa relacionamento tem como objetivo descrever a relação entre orçamento e serviço
+* <b>Preço <i>DOUBLE</i></b>: descreve o valor total a ser pago.
+
+O resultado desse projeto foi o seguinte:
+
 
 <img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/5e757398a5d35fc8cdb9c8f3c1c34f75ee8eecf0/Desafio-OFICINA/media/projeto_conceitual_db_centro_car.png'>
 
 <hr>
-Gostaria de ver outros desafios realizados nesse bootcamp? acesse o <a href='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO'>link</a>
+Gostaria de ver outros desafios realizados neste bootcamp? acesse o <a href='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO'>link</a>
