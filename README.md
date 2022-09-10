@@ -26,7 +26,7 @@
 
 ## Sobre 
 
-O DIO Database Experience é um Bootcamp de banco de dados para profissionais que desejam aprimorar os principais conceitos de banco de dados SQL e NoSQL. No programa de 54 horas, os participantes têm acesso a conteúdos educacionais e mentorias exclusivas sobre modelagem de dados, SGBD, EER, arquitetura, consultas, entre outros assuntos. O bootcamp possui 4 desafios de projeto, que contemplaram varias fases da modelagem e manipulação de banco de dados. 
+O DIO Database Experience é um Bootcamp de banco de dados para profissionais que desejam aprimorar os principais conceitos de banco de dados SQL e NoSQL. No programa de 54 horas, os participantes têm acesso a conteúdos educacionais e mentorias exclusivas sobre modelagem de dados, SGBD, EER, arquitetura, consultas, entre outros assuntos. O bootcamp possui 6 desafios de projeto, que contemplaram varias fases da modelagem e manipulação de banco de dados. As plataformas abordadas são: MySQL e MongoDB.
 
 ## 1° Desafio: E-COMMERCE Loja Wizard
 Um modelo conceitual é um modelo abstrato de um banco de dados que não considera o sistema de gerenciamento de banco de dados (SGBD) específico que será usado para implementá-lo. Ele serve como uma descrição do banco de dados independente de qual SGBD será usado para implementação. Desta forma, o mesmo modelo conceitual pode ser utilizado para implementação com qualquer SGBD. Um modelo conceitual indica quais dados podem aparecer no banco de dados e por essa razão é uma etapa importante durante a criação de um banco de dados.
