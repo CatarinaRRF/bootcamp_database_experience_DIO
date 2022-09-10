@@ -70,8 +70,6 @@ Esse modelo apresenta as seguintes características:
 A seguir se encontra o resultado do Modelo Conceitual: 
 <img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/b5006a3c74f4fb5faae59777f48e8e35a0c74220/Desafio-ECOMMERCE/media/projeto_conceitual_db_ecommerce_h.png'>
 
-> ⚠️ Para mais detalhes visite: <a href='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/664fcd84b6fc1530a52dfe03e9fa4f9c8d90ad84/Desafio-ECOMMERCE/README.md'>link</a>
-
 ## Segundo Desafio - Oficina Mecânica CENTROCAR 
 Administrar uma oficina mecânica tem especificidades que outro negócio não tem, como o conhecimento técnico, mas a base é a mesma de qualquer empreendimento. Além de prestar um bom serviço, o negócio de carros exige boa apresentação, bom atendimento e conhecimentos de gestão. É um desafio diário, que exige comprometimento do proprietário. Assim, a empresa CENTROCAR percebeu a necessidade de criar e manter um banco de dados com o intuito de auxiliar uma tomada de decisão orientada por dados. 
 Desse modo, foi contruido de acordo com as necessidades da empresa o seguinte modelo conceitual:
@@ -106,8 +104,6 @@ Desse modo, foi contruido de acordo com as necessidades da empresa o seguinte mo
 A seguir se encontra o resultado do Modelo Conceitual: 
 
 <img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/905fa0eda99642ff1f9e1896d2e76d068da59655/Desafio-OFICINA/media/projeto_conceitual_db_centro_car.png'>
-
-> ⚠️ Para mais detalhes visite: <a href='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/tree/main/Desafio-OFICINA#readme'>link</a>
 
 ## 3° Desafio: Projeto Lógico de Banco de Dados
 *
