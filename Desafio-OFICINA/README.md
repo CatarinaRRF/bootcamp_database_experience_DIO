@@ -1,7 +1,7 @@
 <h1 align="center">
 <h1 align="center">
   <br>
-  <img src="https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/5e757398a5d35fc8cdb9c8f3c1c34f75ee8eecf0/Desafio-OFICINA/media/banner_oficina.png" alt="logo" >
+  <img src="https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/ac7385587b590488a94a9203ddf42483064c681d/Desafio-OFICINA/media/banner_oficina.png" alt="logo" >
 </h1>
 
 <h3 align="center"> Database Experience - 2° Desafio: Oficina</h3>
@@ -27,38 +27,38 @@ Administrar uma oficina mecânica tem especificidades que outro negócio não te
 ## Metodologia
 Um modelo conceitual é um modelo abstrato que descreve a estrutura de um banco de dados de forma independente do SGBD. Dessa forma, será usado o workbench do mysql, para criar um diagrama de relações de entidades. As entidades definidas foram:
 
-### <i>Ficha do Veículo</i>
+### Ficha do Veículo
 Essa entidade tem como objetivo descrever todas as características do carro.
 * <b>Placa <i>VARCHAR(7)</i></b>: É a chave primária dessa entidade;
 * <b>Modelo <i>VARCHAR(45)</i></b>: Armazena o modelo do carro;
 * <b>Ano <i>YEAR</i></b>: Armazena o ano de fabricação do carro;
 * <b>Características gerais do veículo <i>VARCHAR(45)</i> (câmbio, combustível, pneus, etc)</b>: Armazena características das peças do carro.
 
-### <i>Clientes</i>
+### Clientes
 Essa entidade tem como objetivo descrever todas as características do cliente.
 * <b>CPF <i>VARCHAR(11)</i></b>: É a chave primária dessa entidade e tem o propósito da identificação do cliente;
 * <b>Identidade<i>VARCHAR(12)</i></b>: identificação do cliente;
 * <b>Pagamento<i>VARCHAR(16)</i></b>: Método de pagamento escolhido, possui quatro variáveis: cartão de débito, cartão crédito, dinheiro, pix;
 
-### <i>Serviço</i>
+### Serviço
 Essa entidade tem como objetivo descrever todas as características do serviço.
 * <b>Natureza do serviço <i>BIT(8)</i></b>: Descreve qual o tipo de serviço foi requerido pelo cliente, sendo as opções:Reparos automotivos (1), Troca de óleo (2),Alinhamento e, balanceamento (3), Manutenção de embreagem (4), Revisão dos componentes de freio (5), Checagem do nível de água no radiador (6), Revisão Geral (7), outro (8). Os dados serão armazenados de acordo com a numeração de cada tipo, sendo assim, 0 a 7;
 * <b>Urgência <i>BIT(2)</i></b>: Descreva se o serviço precisa ser realizado com urgência. Tem como data type boolean, sendo 0 'sem urgência' e 1 'com urgência';
 * <b>Descrição do serviço <i>VARCHAR(256)</i></b>: Descreve alguma especificação sobre o serviço (opcional).
 
-### <i>Orçamento</i>
+### Orçamento
 Essa entidade tem como objetivo descrever todas as características do orçamento.
 * <b>Peças <i>BIT(2)</i> (câmbio, combustível, pneus, etc)</b>: Descreve se o foi comprado/consertado determinada peça do carro. Tem como data type boolean, sendo 0 'não trocou' e 1 'trocou', existe um atributo para cada peça;
 * <b>Mão de obra <i>BIT(4)</i></b>: descreve o valor da mão de obra de acordo com tempo estimado que será necessário para o concerto. Desse modo, os dados serão armazenados de 0 a 3 e que indicam as seguintes informações 1-7 dias (1), 8-14 dias (2), 9-21 dias (3), > 1 mês (4);
 
-### <i>Equipe</i>
+### Equipe
 Essa entidade tem como objetivo descrever todas as características da equipe.
 * <b>Numero de Funcionarios <i>INT</i></b>: Descreve quantos funcionários tem na equipe;
 * <b>Especialidade <i>VARCHAR(45)</i></b>: Descreve a especialidade da equipe;
 
-### <i>Relacionamento: Valor Pagamento</i>
-Essa relacionamento tem como objetivo descrever a relação entre orçamento e serviço
-* <b>Preço <i>DOUBLE</i></b>: descreve o valor total a ser pago.
+### Relacionamento: Valor do Pagamento
+Essa relacionamento tem como objetivo descrever a relação entre orçamento e serviço 
+* <b>Preço <i>DOUBLE</i></b>: descreve o valor total a ser pago apartir das variaveis serviço e orçamento.
 
 O resultado desse projeto foi o seguinte:
 
