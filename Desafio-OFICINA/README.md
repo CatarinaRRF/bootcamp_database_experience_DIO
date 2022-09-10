@@ -65,5 +65,5 @@ O resultado desse projeto foi o seguinte:
 
 <img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/905fa0eda99642ff1f9e1896d2e76d068da59655/Desafio-OFICINA/media/projeto_conceitual_db_centro_car.png'>
 
-<hr>
+<img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/647a3b7019d104c154078c3844cf91fbc54c260b/Desafio-OFICINA/media/line.png'> 
 Gostaria de ver outros desafios realizados neste bootcamp? acesse o <a href='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO'>link</a>
