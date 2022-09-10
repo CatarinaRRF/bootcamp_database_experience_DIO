@@ -63,7 +63,7 @@ Essa relacionamento tem como objetivo descrever a relação entre orçamento e s
 O resultado desse projeto foi o seguinte:
 
 
-<img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/5e757398a5d35fc8cdb9c8f3c1c34f75ee8eecf0/Desafio-OFICINA/media/projeto_conceitual_db_centro_car.png'>
+<img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/905fa0eda99642ff1f9e1896d2e76d068da59655/Desafio-OFICINA/media/projeto_conceitual_db_centro_car.png'>
 
 <hr>
 Gostaria de ver outros desafios realizados neste bootcamp? acesse o <a href='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO'>link</a>
