@@ -54,7 +54,7 @@ Essa entidade tem como objetivo descrever todas as caracteristicas do carro que 
 * numero de Funcionarios
 * Especialidade
 
-<b><i>Valor Pagamento</i></b>
+<b>Relacionamento:<i> Valor Pagamento</i></b>
 * Preço
 
 <img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/5e757398a5d35fc8cdb9c8f3c1c34f75ee8eecf0/Desafio-OFICINA/media/projeto_conceitual_db_centro_car.png'>
