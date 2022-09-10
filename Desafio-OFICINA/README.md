@@ -26,8 +26,38 @@ Administrar uma oficina mecânica tem especificidades que outro negócio não te
 
 ## Metodologia
 ### <i>Projeto Conceitual</i>
-Um modelo conceitual é um modelo abstrato que descreve a estrutura de um banco de dados de forma independente do SGBD. Dessa forma, será usado o workbanch do mysql, para criar um diagrama de relações de entidades. 
-<img href='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/5e757398a5d35fc8cdb9c8f3c1c34f75ee8eecf0/Desafio-OFICINA/media/projeto_conceitual_db_centro_car.png'>
+Um modelo conceitual é um modelo abstrato que descreve a estrutura de um banco de dados de forma independente do SGBD. Dessa forma, será usado o workbanch do mysql, para criar um diagrama de relações de entidades. As entidades definidas foram:
+
+<b><i>Ficha do Veículo</i></b>
+Essa entidade tem como objetivo descrever todas as caracteristicas do carro que o 
+* Placa
+* Modelo
+* Ano
+* Caracteristicas gerais do veiculo (cambio, combustivel, pneus, etc)
+
+<b><i>Cientes</i></b>
+* CPF
+* Identidade
+* pagamento
+* veiculo
+
+<b><i>Serviço</i></b>
+* natureza do serviço
+* urgência
+* Descrição do serviço
+
+<b><i>Orçamento</i></b>
+* Peças
+* Mão de obra
+
+<b><i>Equipe</i></b>
+* numero de Funcionarios
+* Especialidade
+
+<b><i>Valor Pagamento</i></b>
+* Preço
+
+<img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/5e757398a5d35fc8cdb9c8f3c1c34f75ee8eecf0/Desafio-OFICINA/media/projeto_conceitual_db_centro_car.png'>
 
 <hr>
 Gostaria de ver outros desafios realizados nesse bootcamp? acesse o <a href='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO'>link</a>
