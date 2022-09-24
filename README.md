@@ -106,10 +106,17 @@ A seguir se encontra o resultado do Modelo Conceitual:
 <img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/905fa0eda99642ff1f9e1896d2e76d068da59655/Desafio-OFICINA/media/projeto_conceitual_db_centro_car.png'>
 
 ## 3° Desafio: Projeto Lógico de Banco de Dados
-*
-*
+Foi requisitado a criação de um projeto lógico de banco de dados para o cenário de e-commerce. Dentro desta modelagem haverá relacionamentos presentes no modelo EER. Além disso, aplicou-se o mapeamento de modelos aos refinamentos propostos no módulo de modelagem conceitual. Assim, realizou=se a criação do Script SQL para criação do esquema do banco de dados. Posteriormente, realizou-se a persistência de dados para realização de testes. FFoi especificado ainda queries mais complexas dos que apresentadas durante a explicação do desafio. Sendo assim, foi criado queries SQL com as cláusulas abaixo:
 
-<b><sup>Um changelog mais detalhado pode ser acessado em: <a href=''>link</a></sup></b>
+* Recuperações simples com SELECT Statement
+* Filtros com WHERE Statement
+* Criou-se expressões para gerar atributos derivados
+* Foi Ddefinido ordenações dos dados com ORDER BY
+* Condições de filtros aos grupos – HAVING Statement
+* Junções entre tabelas para fornecer uma perspectiva mais complexa dos dados
+
+
+<b><sup>O script completo detalhado pode ser acessado em: <a href=''>link</a></sup></b>
 
 ## Arquivos
 
