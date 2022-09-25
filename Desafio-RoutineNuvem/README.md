@@ -117,15 +117,14 @@ O diagrama ficou da seguinte forma:
 
 Após esta etapa foi criado a base de dados fisica a partir das clausulas <B>`CREATE DATABASE`</B> e <B>`CREATE TABLE`</B> e para criar os dados de simulação foi usado o site https://generatedata.com/, de modo, a facilitar a inserção de uma grande quantidade de dados.
 
-Por fim, foram realizadas as querys para responder as duvidas dos stakeholders de qual o perfil de seus clientes. As seguintes consultas foram realizadas:
+Em seguida, foram realizadas as querys para responder as duvidas dos stakeholders de qual o perfil de seus clientes. As seguintes consultas foram realizadas:
 
-*
-*
-*
-*
-*
-*
-*
+* Verificando qual a localização mais frequente dos clientes com a query: `select estado, count(*) as clientes_per_estado FROM cliente GROUP BY estado`
+* Verificando qual a faixa etaria dos clientes com a query: ` `
+* Verificando se os estoques mais cheios são aqueles que tem mais clientes com a query: `select quatidade_disponivel, count(localizacao) as estoques_per_localizacao, localizacao FROM estoque GROUP BY localizacao`
+
+Por fim, foi criado um dashboard no excel para demonstrar os resultados coletados:
+<img src=''>
 
 ## Arquivos
 * Modelo Conceitual <a href='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/c242d91a8d454a9e3d0d62169cb8955e1fd6a81e/Desafio-RoutineNuvem/media/projeto_conceitual_db_RoutineNuvem.png'>link</a>
