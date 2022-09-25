@@ -1,0 +1,567 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Catarina Freitas</LastAuthor>
+  <LastPrinted>2022-09-25T22:01:48Z</LastPrinted>
+  <LastSaved>2022-09-25T22:37:29Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7545</WindowHeight>
+  <WindowWidth>20490</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ActiveSheet>3</ActiveSheet>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <NumberFormat ss:Format="Fixed"/>
+  </Style>
+  <Style ss:ID="s63">
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s65">
+   <NumberFormat ss:Format="0"/>
+  </Style>
+  <Style ss:ID="s66">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s76">
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s82">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="14" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#006189" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Localização">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=Localização!R1C1:R1C2"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="2" ss:ExpandedRowCount="14" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="110.25"/>
+   <Column ss:AutoFitWidth="0" ss:Width="84.75"/>
+   <Row>
+    <Cell><Data ss:Type="String">estado</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">clientes_per_estado</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bahia</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ceará</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Maranhão</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pará</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Minas Gerais</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Paraná</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pernambuco</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Goiás</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rio Grande do Sul</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Santa Catarina</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Paraíba</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rio de Janeiro</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">São Paulo</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.4921259845"/>
+    <Footer x:Margin="0.4921259845"/>
+    <PageMargins x:Bottom="0.984251969" x:Left="0.78740157499999996"
+     x:Right="0.78740157499999996" x:Top="0.984251969"/>
+   </PageSetup>
+   <TabColorIndex>21</TabColorIndex>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>14</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <AutoFilter x:Range="R1C1:R1C2" xmlns="urn:schemas-microsoft-com:office:excel">
+  </AutoFilter>
+ </Worksheet>
+ <Worksheet ss:Name="Faixa etaria">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="='Faixa etaria'!R1C1:R1C2"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="54" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:StyleID="s66" ss:AutoFitWidth="0"/>
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="97.5"/>
+   <Row>
+    <Cell><Data ss:Type="String">idade</Data><NamedCell ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">clientes_per_idade</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">20s</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">30s</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">40s</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">50s</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=SUM(R[-5]C[-1]:RC[-1])"><Data
+      ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">60s</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">70s</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">80s</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="4"><Data ss:Type="String">90s</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:Index="5" ss:Formula="=SUM(R[-8]C:R[-1]C)"><Data ss:Type="Number">100</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=SUM(R[-5]C[-1]:RC[-1])"><Data
+      ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">42</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">49</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=SUM(R[-8]C[-1]:RC[-1])"><Data
+      ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">51</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">52</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">54</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">59</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=SUM(R[-6]C[-1]:RC[-1])"><Data
+      ss:Type="Number">11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">62</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">63</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">64</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">66</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">68</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=SUM(R[-4]C[-1]:RC[-1])"><Data
+      ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">72</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">74</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">76</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">78</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">79</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=SUM(R[-6]C[-1]:RC[-1])"><Data
+      ss:Type="Number">19</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">81</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">82</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">84</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">85</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">86</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">89</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=SUM(R[-6]C[-1]:RC[-1])"><Data
+      ss:Type="Number">14</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">92</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">93</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">94</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">96</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">97</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">98</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65" ss:Formula="=SUM(R[-5]C[-1]:RC[-1])"><Data
+      ss:Type="Number">7</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.31496062000000002"/>
+    <Footer x:Margin="0.31496062000000002"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.511811024"
+     x:Right="0.511811024" x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <TabColorIndex>52</TabColorIndex>
+   <TopRowVisible>3</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>18</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <AutoFilter x:Range="R1C1:R1C2" xmlns="urn:schemas-microsoft-com:office:excel">
+  </AutoFilter>
+ </Worksheet>
+ <Worksheet ss:Name="Estoque">
+  <Names>
+   <NamedRange ss:Name="_FilterDatabase" ss:RefersTo="=Estoque!R1C1:R1C3"
+    ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="14" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="75.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="118.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="144"/>
+   <Row>
+    <Cell><Data ss:Type="String">Localizacao</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Quatidade Disponivel</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+    <Cell><Data ss:Type="String">Estoques per localizacao</Data><NamedCell
+      ss:Name="_FilterDatabase"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Paraíba</Data></Cell>
+    <Cell><Data ss:Type="Number">393</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Santa Catarina</Data></Cell>
+    <Cell><Data ss:Type="Number">832</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Minas Gerais</Data></Cell>
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ceará</Data></Cell>
+    <Cell><Data ss:Type="Number">148</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Paraná</Data></Cell>
+    <Cell><Data ss:Type="Number">702</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Goiás</Data></Cell>
+    <Cell><Data ss:Type="Number">722</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pernambuco</Data></Cell>
+    <Cell><Data ss:Type="Number">947</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">6</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Bahia</Data></Cell>
+    <Cell><Data ss:Type="Number">214</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">São Paulo</Data></Cell>
+    <Cell><Data ss:Type="Number">562</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Pará</Data></Cell>
+    <Cell><Data ss:Type="Number">86</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Maranhão</Data></Cell>
+    <Cell><Data ss:Type="Number">362</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rio de Janeiro</Data></Cell>
+    <Cell><Data ss:Type="Number">769</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Rio Grande do Sul</Data></Cell>
+    <Cell><Data ss:Type="Number">713</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">12</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.31496062000000002"/>
+    <Footer x:Margin="0.31496062000000002"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.511811024"
+     x:Right="0.511811024" x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <TabColorIndex>53</TabColorIndex>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>16</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <AutoFilter x:Range="R1C1:R1C3" xmlns="urn:schemas-microsoft-com:office:excel">
+  </AutoFilter>
+ </Worksheet>
+ <Worksheet ss:Name="Dashboard">
+  <Table ss:ExpandedColumnCount="20" ss:ExpandedRowCount="2" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s76" ss:DefaultRowHeight="14.25">
+   <Row>
+    <Cell ss:MergeAcross="19" ss:MergeDown="1" ss:StyleID="s82"><Data
+      ss:Type="String">Perfil dos clientes da RoutineNuvem</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.31496062000000002"/>
+    <Footer x:Margin="0.31496062000000002"/>
+    <PageMargins x:Bottom="0.78740157499999996" x:Left="0.511811024"
+     x:Right="0.511811024" x:Top="0.78740157499999996"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <TabColorIndex>21</TabColorIndex>
+   <Zoom>70</Zoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>5</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
