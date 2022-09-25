@@ -19,10 +19,10 @@
 
 <p align="center">
   <a href="#sobre">Sobre</a> •
-  <a href="#🥊-primeiro-desafio---loja-wizard">1° Desafio</a> •
-  <a href="#🥊-segundo-desafio---oficina-mecânica-centrocar">2° Desafio</a> •
-  <a href="#3°-desafio:-loja-de-departamentos---routine-nuvem">3° desafio</a> •
-  <a href="#">-🥊4° Desafio</a> •
+  <a href="#primeiro-desafio---loja-wizard">Loja Wizard</a> •
+  <a href="#segundo-desafio---oficina-mecânica-centrocar">CENTROCAR</a> •
+  <a href="#desafio:-loja-de-departamentos---routine-nuvem">Routine Nuvem</a> •
+  <a href="#">-4° Desafio</a> •
   <a href="#arquivos">Arquivos</a> •
   <a href="#creditos">Creditos</a>
   
@@ -32,11 +32,9 @@
 
 O DIO Database Experience é um Bootcamp de banco de dados para profissionais que desejam aprimorar os principais conceitos de banco de dados SQL e NoSQL. No programa de 54 horas, os participantes têm acesso a conteúdos educacionais e mentorias exclusivas sobre modelagem de dados, SGBD, EER, arquitetura, consultas, entre outros assuntos. O bootcamp possui 6 desafios de projeto, que contemplaram varias fases da modelagem e manipulação de banco de dados. As plataformas abordadas são: MySQL e MongoDB.
 
-## 🥊 Primeiro Desafio - Loja Wizard
+## ✏️ 1° Desafio - Loja Wizard
 Um modelo conceitual é um modelo abstrato de um banco de dados que não considera o sistema de gerenciamento de banco de dados (SGBD) específico que será usado para implementá-lo. Ele serve como uma descrição do banco de dados independente de qual SGBD será usado para implementação. Desta forma, o mesmo modelo conceitual pode ser utilizado para implementação com qualquer SGBD. Um modelo conceitual indica quais dados podem aparecer no banco de dados e por essa razão é uma etapa importante durante a criação de um banco de dados.<br>
-Nesse sentido a organização fictícia em ascensão, Loja Wizard, busca estruturar os dados de seu processo produtivo. Desse modo, se faz necessario a criação de um banco de dados que contempla todas as entidades em seu processo. Assim, foi desafiado ao participante a execução da criação de um projeto conceitual a partir de um modelo ER.
-
-Esse modelo apresenta as seguintes características:
+Nesse sentido a organização fictícia em ascensão, Loja Wizard, busca estruturar os dados de seu processo produtivo. Desse modo, se faz necessario a criação de um banco de dados que contempla todas as entidades em seu processo. Assim, foi desafiado ao participante a execução da criação de um projeto conceitual a partir de um modelo ER. O modelo criado apresenta as seguintes características:
 
 <b><i>Atributo produtos</i></b> 
 * São vendidos por uma unica plataforma online, contudo, estes podem ter vendedores distintos
@@ -66,11 +64,10 @@ Esse modelo apresenta as seguintes características:
 * Data máxima de entrega;
 * Local
 
-### Resultado
-A seguir se encontra o resultado do Modelo Conceitual: 
+Por fim, foi criado o modelo conceitual Modelo Conceitual: 
 <img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/b5006a3c74f4fb5faae59777f48e8e35a0c74220/Desafio-ECOMMERCE/media/projeto_conceitual_db_ecommerce_h.png'>
 
-## 🥊 Segundo Desafio - Oficina Mecânica CENTROCAR 
+## ✏️ 2° Desafio - CENTROCAR 
 Administrar uma oficina mecânica tem especificidades que outro negócio não tem, como o conhecimento técnico, mas a base é a mesma de qualquer empreendimento. Além de prestar um bom serviço, o negócio de carros exige boa apresentação, bom atendimento e conhecimentos de gestão. É um desafio diário, que exige comprometimento do proprietário. Assim, a empresa CENTROCAR percebeu a necessidade de criar e manter um banco de dados com o intuito de auxiliar uma tomada de decisão orientada por dados. 
 Desse modo, foi contruido de acordo com as necessidades da empresa o seguinte modelo conceitual:
 
@@ -100,25 +97,35 @@ Desse modo, foi contruido de acordo com as necessidades da empresa o seguinte mo
 <b><i>Relacionamento: Valor do Pagamento</i></b>
 * <b>Preço <i>DOUBLE</i></b>: descreve o valor total a ser pago apartir das variaveis serviço e orçamento.
 
-### Resultado
-A seguir se encontra o resultado do Modelo Conceitual: 
+Por fim, foi criado o Modelo Conceitual: 
 
 <img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/905fa0eda99642ff1f9e1896d2e76d068da59655/Desafio-OFICINA/media/projeto_conceitual_db_centro_car.png'>
 
-## 🥊 3° Desafio: Loja de departamentos - Routine Nuvem
-Foi requisitado a criação de um projeto lógico de banco de dados para o cenário de e-commerce. Dentro desta modelagem haverá relacionamentos presentes no modelo EER. Além disso, aplicou-se o mapeamento de modelos aos refinamentos propostos no módulo de modelagem conceitual. Assim, realizou=se a criação do Script SQL para criação do esquema do banco de dados. Posteriormente, realizou-se a persistência de dados para realização de testes. FFoi especificado ainda queries mais complexas dos que apresentadas durante a explicação do desafio. Sendo assim, foi criado queries SQL com as cláusulas abaixo:
+## ✏️ 3° Desafio: Loja de departamentos - Routine Nuvem
+Os diretores de Ecommerce hoje, gastam uma quantia significativa de dinheiro tentando direcionar o tráfego para sua loja online. Com as taxas médias de conversão de comércio eletrônico em torno de 2,86%, os varejistas on-line devem se esforçar muito para gerar leads para aproveitar ao máximo sua estratégia de marketing. Dessa forma, a empresa de departamentos Routine Nuvem deseja criar um banco de dados, a fim de, identificar o perfil de seus clientes a modo de aperfeiçoar a estratégia de marketing da organização.
 
-* Recuperações simples com SELECT Statement
-* Filtros com WHERE Statement
-* Criou-se expressões para gerar atributos derivados
-* Foi Ddefinido ordenações dos dados com ORDER BY
-* Condições de filtros aos grupos – HAVING Statement
-* Junções entre tabelas para fornecer uma perspectiva mais complexa dos dados
+Foi então proposto um modelo conceitual de Banco de Dados com os atributos: Produto, Estoque, Fornecedor, Cliente e Pedido. O banco de dados então foi estruturado apartir dessas informações e tem a seguinte forma:
 
+<img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/c242d91a8d454a9e3d0d62169cb8955e1fd6a81e/Desafio-RoutineNuvem/media/projeto_conceitual_db_RoutineNuvem.png'>
 
-<b><sup>O script completo detalhado pode ser acessado em: <a href=''>link</a></sup></b>
+Após esta etapa foi criado a base de dados fisica a partir das clausulas <B>`CREATE DATABASE`</B> e <B>`CREATE TABLE`</B> e para criar os dados de simulação foi usado o site https://generatedata.com/, de modo, a facilitar a inserção de uma grande quantidade de dados.
 
-## 🥊 4° Desafio: Projeto Lógico de Banco de Dados
+Em seguida, foram realizadas as querys para responder as duvidas dos stakeholders de qual o perfil de seus clientes. As seguintes consultas foram realizadas:
+
+* Verificando qual a localização mais frequente dos clientes com a query: `select estado, count(*) as clientes_per_estado FROM cliente GROUP BY estado`
+* Verificando qual a faixa etaria dos clientes com a query: `select idade, count(*) as clientes_per_idade FROM cliente GROUP BY idade`
+* Verificando se os estoques mais cheios são aqueles que tem mais clientes com a query: `select quatidade_disponivel, count(localizacao) as estoques_per_localizacao, localizacao FROM estoque GROUP BY localizacao`
+
+Por fim, foi criado um dashboard estratégico no excel a partir dos resultados coletados, auxiliando assim, a tomada de decisões estratégicas na empresa. Contém informações sobre o perfil dos clientes e dos estoques:
+
+<img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/626275471a5b58c2b24756788321abee46b5b792/Desafio-RoutineNuvem/media/Dashboard_RoutineNuvem.png'>
+
+<b><sup>Para mais detalhes sobre o desafio acesse: <a href='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/tree/main/Desafio-RoutineNuvem'>Desafio-RoutineNuvem</a></sup></b>
+
+## ✏️ 4° Desafio: Projeto Lógico de Banco de Dados
+*
+*
+*
 
 ## Arquivos
 
