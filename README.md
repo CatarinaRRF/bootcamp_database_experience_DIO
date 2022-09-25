@@ -19,10 +19,10 @@
 
 <p align="center">
   <a href="#sobre">Sobre</a> •
-  <a href="#primeiro-desafio---loja-wizard">1° Desafio</a> •
-  <a href="#segundo-desafio---oficina-mecânica-centrocar">2° Desafio</a> •
-  <a href="#">3° Desafio</a> •
-  <a href="#">4° Desafio</a> •
+  <a href="#🥊-primeiro-desafio---loja-wizard">1° Desafio</a> •
+  <a href="#🥊-segundo-desafio---oficina-mecânica-centrocar">2° Desafio</a> •
+  <a href="#3°-desafio:-loja-de-departamentos---routine-nuvem">3° desafio</a> •
+  <a href="#">-🥊4° Desafio</a> •
   <a href="#arquivos">Arquivos</a> •
   <a href="#creditos">Creditos</a>
   
@@ -32,7 +32,7 @@
 
 O DIO Database Experience é um Bootcamp de banco de dados para profissionais que desejam aprimorar os principais conceitos de banco de dados SQL e NoSQL. No programa de 54 horas, os participantes têm acesso a conteúdos educacionais e mentorias exclusivas sobre modelagem de dados, SGBD, EER, arquitetura, consultas, entre outros assuntos. O bootcamp possui 6 desafios de projeto, que contemplaram varias fases da modelagem e manipulação de banco de dados. As plataformas abordadas são: MySQL e MongoDB.
 
-## Primeiro Desafio - Loja Wizard
+## 🥊 Primeiro Desafio - Loja Wizard
 Um modelo conceitual é um modelo abstrato de um banco de dados que não considera o sistema de gerenciamento de banco de dados (SGBD) específico que será usado para implementá-lo. Ele serve como uma descrição do banco de dados independente de qual SGBD será usado para implementação. Desta forma, o mesmo modelo conceitual pode ser utilizado para implementação com qualquer SGBD. Um modelo conceitual indica quais dados podem aparecer no banco de dados e por essa razão é uma etapa importante durante a criação de um banco de dados.<br>
 Nesse sentido a organização fictícia em ascensão, Loja Wizard, busca estruturar os dados de seu processo produtivo. Desse modo, se faz necessario a criação de um banco de dados que contempla todas as entidades em seu processo. Assim, foi desafiado ao participante a execução da criação de um projeto conceitual a partir de um modelo ER.
 
@@ -70,7 +70,7 @@ Esse modelo apresenta as seguintes características:
 A seguir se encontra o resultado do Modelo Conceitual: 
 <img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/b5006a3c74f4fb5faae59777f48e8e35a0c74220/Desafio-ECOMMERCE/media/projeto_conceitual_db_ecommerce_h.png'>
 
-## Segundo Desafio - Oficina Mecânica CENTROCAR 
+## 🥊 Segundo Desafio - Oficina Mecânica CENTROCAR 
 Administrar uma oficina mecânica tem especificidades que outro negócio não tem, como o conhecimento técnico, mas a base é a mesma de qualquer empreendimento. Além de prestar um bom serviço, o negócio de carros exige boa apresentação, bom atendimento e conhecimentos de gestão. É um desafio diário, que exige comprometimento do proprietário. Assim, a empresa CENTROCAR percebeu a necessidade de criar e manter um banco de dados com o intuito de auxiliar uma tomada de decisão orientada por dados. 
 Desse modo, foi contruido de acordo com as necessidades da empresa o seguinte modelo conceitual:
 
@@ -105,7 +105,7 @@ A seguir se encontra o resultado do Modelo Conceitual:
 
 <img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/905fa0eda99642ff1f9e1896d2e76d068da59655/Desafio-OFICINA/media/projeto_conceitual_db_centro_car.png'>
 
-## 3° Desafio: Projeto Lógico de Banco de Dados
+## 🥊 3° Desafio: Loja de departamentos - Routine Nuvem
 Foi requisitado a criação de um projeto lógico de banco de dados para o cenário de e-commerce. Dentro desta modelagem haverá relacionamentos presentes no modelo EER. Além disso, aplicou-se o mapeamento de modelos aos refinamentos propostos no módulo de modelagem conceitual. Assim, realizou=se a criação do Script SQL para criação do esquema do banco de dados. Posteriormente, realizou-se a persistência de dados para realização de testes. FFoi especificado ainda queries mais complexas dos que apresentadas durante a explicação do desafio. Sendo assim, foi criado queries SQL com as cláusulas abaixo:
 
 * Recuperações simples com SELECT Statement
@@ -117,6 +117,8 @@ Foi requisitado a criação de um projeto lógico de banco de dados para o cená
 
 
 <b><sup>O script completo detalhado pode ser acessado em: <a href=''>link</a></sup></b>
+
+## 🥊 4° Desafio: Projeto Lógico de Banco de Dados
 
 ## Arquivos
 
