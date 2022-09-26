@@ -64,7 +64,7 @@ Essa entidade tem como objetivo descrever todas as características da equipe.
   
 Dessa forma, o Modelo Conceitual ficou o seguinte: 
 
-<img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/905fa0eda99642ff1f9e1896d2e76d068da59655/Desafio-OFICINA/media/projeto_conceitual_db_centro_car.png'>
+<img src='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/e7f4227f43763313edfc8555c2d38bca6dce5562/Desafio-Tulicar/media/projeto_conceitual_db_tulicar.png'>
 
 Após esta etapa foi criado a base de dados fisica a partir das clausulas <B>`CREATE DATABASE`</B> e <B>`CREATE TABLE`</B> e para criar os dados de simulação foi usado o site https://generatedata.com/, de modo, a facilitar a inserção de uma grande quantidade de dados.
 
@@ -75,7 +75,7 @@ Em seguida, foram realizadas as querys para responder as duvidas dos stakeholder
 * Verificando se os estoques mais cheios são aqueles que tem mais clientes com a query: ``
   
  ## Arquivos
-* Modelo Conceitual <a href=''>link</a>
+* Modelo Conceitual <a href='https://github.com/CatarinaRRF/bootcamp_database_experience_DIO/blob/e7f4227f43763313edfc8555c2d38bca6dce5562/Desafio-Tulicar/media/projeto_conceitual_db_tulicar.png'>link</a>
 * Script de Criação do Banco de dados <a href=''>link</a>
 * Script de Consultas por Querys <a href=''>link</a>
 * Dashboard <a href=''>link</a>
